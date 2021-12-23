@@ -1,0 +1,43 @@
+input[type="email"] {
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+input[type="password"] {
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+  border-top: 0%;
+}
+span {
+  font-size: 2em;
+  color: #6C757D;
+}
+.fa-instagram:hover{
+  color: #294CD9;
+}
+.fa-twitter:hover{
+  color: #294CD9;
+}
+.fa-facebook:hover{
+  color: #294CD9;
+}
+.btn-color {
+  background-color: #294CD9;
+}
+.btn-color:hover {
+  background-color: #0a31cc;
+}
+
+@media (min-width: 769px){
+  form{
+    width: 40%; margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  form {
+    width: 90%;
+    margin: auto;
+  }
+  img{
+    width: 70%;
+  }
+}
